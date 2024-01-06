@@ -1,0 +1,62 @@
+body
+{
+    background-color: rgb(217, 211, 211);
+}
+h1 , h2 ,h3 ,h4 , h5 ,h6
+{
+    font-family: 'Abril Fatface', cursive;
+}
+p , button 
+{
+    font-family: 'Josefin Sans', sans-serif;
+}
+li:hover
+{
+    border-bottom: 2px solid blue;
+}
+a:hover
+{
+    font-weight: bolder;
+}
+#acc:hover{
+    border: 1px solid rgb(190, 187, 187);
+    
+}
+.arr:hover
+{
+    background-color: blue;
+}
+#arrow:hover
+{
+    color: white;
+}
+.box:hover{
+        transform: translate(6px);
+        box-shadow: -12px -5px 32px -16px rgba(0,0,0,0.78);
+-webkit-box-shadow: -12px -5px 32px -16px rgba(0,0,0,0.78);
+-moz-box-shadow: -12px -5px 32px -16px rgba(0,0,0,0.78);
+        transition: 1s;
+}
+.trans
+{
+    animation: card 8s infinite;
+}
+@keyframes card
+{
+    0% { transform: translate(0deg);}
+    100% { transform: rotateX(360deg);}
+}
+.blue:hover
+{
+    background-color: blue;
+}
+
+
+/* .trans:hover
+{
+    transform: rotateX(360deg);
+        box-shadow: -12px -5px 32px -16px rgba(0,0,0,0.78);
+-webkit-box-shadow: -12px -5px 32px -16px rgba(0,0,0,0.78);
+-moz-box-shadow: -12px -5px 32px -16px rgba(0,0,0,0.78);
+        transition: 8s;
+} */
